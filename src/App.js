@@ -11,6 +11,7 @@ function App() {
             <Route path="/" element={<Login />} />
             <Route path="home" element={<Home />} />
             <Route path="generate" element={<ResumeGenerator/>} />
+            <Route path="post" element={<Post />} />
         </Routes>
     </div>
   );
